@@ -51,6 +51,7 @@ We appreciate your contributions and look forward to keeping this survey compreh
 ### Large Language Models (LLMs)
 
 <details>
+
 | Model | Paper | Year | paper | code |
 |---|---|---|---|---|
 | GPT | Improving language understanding by generative pre-training | 2018 | [link](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | [link](https://github.com/openai/finetune-transformer-lm) |
@@ -81,6 +82,8 @@ We appreciate your contributions and look forward to keeping this survey compreh
 | DeepSeek-V3 | DeepSeek-V3 technical report | 2024 | [link](https://arxiv.org/abs/2412.19437) | [link](https://github.com/deepseek-ai/DeepSeek-V3) |
 | DeepSeek-R1 | DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learnin | 2025 | [link](https://www.nature.com/articles/s41586-025-09422-z) | [link](https://github.com/deepseek-ai/DeepSeek-R1) |
 | ReasonFlux | ReasonFlux: Hierarchical LLM reasoning via scaling thought templates | 2025 | [link](https://arxiv.org/abs/2502.06772) | [link](https://github.com/Gen-Verse/ReasonFlux) |
+
+
 
 </details>
 
