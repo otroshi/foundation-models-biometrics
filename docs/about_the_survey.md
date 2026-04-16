@@ -24,7 +24,7 @@ In this section, we review recent advancements in foundation models and mention 
 In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats.
 
 - [**Applications of Foundation Models in Biometrics**](#applications-of-foundation-models-in-biometrics):
-In this section, we review recent work on the applications of foundation models in biometrics:
+In this section, we review recent papers on the applications of foundation models in biometrics:
   - [**Foundation Models for Biometric Recognition**](#foundation-models-for-biometric-recognition)
   - [**Foundation Models for Soft-biometric Detection**](#foundation-models-for-soft-biometric-detection)
   - [**Foundation Models for Deepfake and Forgery Detection**](#foundation-models-for-deepfake-and-forgery-detection)

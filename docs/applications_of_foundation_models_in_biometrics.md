@@ -1,9 +1,11 @@
 ---
-title: Applications of Foundation Models in Biometrics
+title: 🔥 Applications of Foundation Models in Biometrics
 nav_order: 4
 ---
 
-# Applications of Foundation Models in Biometrics
+# 🔥 Applications of Foundation Models in Biometrics
+
+In this section, we review recent papers on the applications of foundation models in biometrics:
 
 ### Foundation Models for Biometric Recognition
 

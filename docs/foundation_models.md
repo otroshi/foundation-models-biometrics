@@ -1,13 +1,14 @@
 ---
-title: Foundation Models
+title: ✨ Foundation Models
 nav_order: 3
 ---
 
-# Foundation Models
+# ✨ Foundation Models
+
+In this section, we review recent advancements in foundation models and mention state-of-the-art models. We catgeorise foundation models in four different catgories:
 
 ### Large Language Models (LLMs)
 
-<details>
 
 | Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
@@ -40,7 +41,6 @@ nav_order: 3
 | DeepSeek-R1 | DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learnin | 2025 | [link](https://www.nature.com/articles/s41586-025-09422-z) | [link](https://github.com/deepseek-ai/DeepSeek-R1) |
 | ReasonFlux | ReasonFlux: Hierarchical LLM reasoning via scaling thought templates | 2025 | [link](https://arxiv.org/abs/2502.06772) | [link](https://github.com/Gen-Verse/ReasonFlux) |
 
-</details>
 
 ### Vision Language Models (VLMs)
 

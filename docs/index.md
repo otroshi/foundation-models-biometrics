@@ -13,6 +13,3 @@ nav_order: 1
 <a href="https://forms.gle/NYNjhEKg6q4Pn1UM7" target="_blank">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">
 </a>
-
-* TOC
-{:toc}
