@@ -26,7 +26,7 @@ In this section, we review recent advancements in foundation models and mention 
   - [**Large Multi-modal Models (LMMs)**](#large-multi-modal-models-lmms)
 
 - **Biometric Recognition and Security**:
-In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats.
+In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats. For information about this section, we refer the readers to Section III of our survey paper.
 
 - [**Applications of Foundation Models in Biometrics**](#applications-of-foundation-models-in-biometrics):
 In this section, we review recent papers on the applications of foundation models in biometrics:
@@ -79,7 +79,6 @@ In this section, we review recent advancements in foundation models and mention 
 
 ### Vision Language Models (VLMs)
 
-<details>
 
 | Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
@@ -153,11 +152,9 @@ In this section, we review recent advancements in foundation models and mention 
 | T2V | Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model | 2025 | [link](https://arxiv.org/abs/2502.10248) | [link](https://github.com/stepfun-ai/Step-Video-T2V) |
 | Sora | [blog] Sora: Creating Video from Text | 2024 | [link](https://openai.com/index/sora/) | NA |
 
-</details>
 
 ### Audio-Language Models (ALMs)
 
-<details>
 
 | Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
@@ -188,7 +185,6 @@ In this section, we review recent advancements in foundation models and mention 
 | MusicLM | Musiclm: Generating music from text | 2023 | [link](https://arxiv.org/abs/2301.11325) | NA |
 | AudioLDM | Audioldm: Text-to-audio generation with latent diffusion models | 2023 | [link](https://arxiv.org/abs/2301.12503) | [link](https://audioldm.github.io/) |
 
-</details>
 
 ### Large Multi-modal Models (LMMs)
 
@@ -241,13 +237,14 @@ We appreciate your contributions and look forward to keeping this survey compreh
 
 
 ## ©️ Citation
+If you find this survey useful, please consider citing it:
 
 ```bibtex
 @article{fmbiometrics2025survey,
   title={Foundation Models and Biometrics: A Survey and Outlook},
   author={Hatef Otroshi Shahreza and S{\'e}bastien Marcel},
-  journal={TechRxiv},
-  doi={10.36227/techrxiv.174119169.94570936/v1},
-  year={2025}
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2025},
+  publisher={IEEE}
 }
 ```
