@@ -52,7 +52,7 @@ We appreciate your contributions and look forward to keeping this survey compreh
 
 <details>
 
-| Model | Paper | Year | paper | code |
+| Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
 | GPT | Improving language understanding by generative pre-training | 2018 | [link](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | [link](https://github.com/openai/finetune-transformer-lm) |
 | GPT-2 | Language models are unsupervised multitask learners | 2019 | [link](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | [link](https://github.com/openai/gpt-2) |
@@ -89,7 +89,7 @@ We appreciate your contributions and look forward to keeping this survey compreh
 
 <details>
 
-| Model | Paper | Year | paper | code |
+| Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
 | DINO | Emerging properties in self-supervised vision transformers | 2021 | [link](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf) | [link](https://github.com/facebookresearch/dino) |
 | DINOv2 | Dinov2: Learning robust visual features without supervision | 2023 | [link](https://openreview.net/pdf?id=a68SUt6zFt) | [link](https://github.com/facebookresearch/dinov2) |
@@ -167,7 +167,7 @@ We appreciate your contributions and look forward to keeping this survey compreh
 
 <details>
 
-| Model | Paper | Year | paper | code |
+| Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
 | Wav2Vec 2.0 | wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations | 2020 | [link](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html) | [link](https://github.com/facebookresearch/fairseq) |
 | HuBERT | Hubert: Self-supervised speech representation learning by masked prediction of hidden units | 2021 | [link](https://arxiv.org/abs/2106.07447) | [link](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert) |
