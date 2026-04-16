@@ -28,6 +28,6 @@ jobs:
         run: |
           git config user.name "Hatef Otroshi"
           git config user.email "72525669+otroshi@users.noreply.github.com"
-          git add docs/index.md
+          git add docs
           git commit -m "[Sync] Auto-sync README to docs" || echo "No changes"
           git push
