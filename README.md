@@ -240,7 +240,7 @@ We will keep updating this survey and this git repository. Please contact the fi
 We appreciate your contributions and look forward to keeping this survey comprehensive and up to date!
 
 
-## Citation
+## ©️ Citation
 
 ```bibtex
 @article{fmbiometrics2025survey,
