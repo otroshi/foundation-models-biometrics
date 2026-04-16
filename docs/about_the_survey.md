@@ -1,6 +1,7 @@
 ---
 title: 🚀 About the Survey
 nav_order: 2
+permalink: /about_the_survey
 ---
 
 # 🚀 About the Survey
