@@ -39,6 +39,7 @@ for i, section in enumerate(sections[1:], start=2):
     body = "\n".join(lines[1:]).strip()
 
     body = body.replace("](#", "](./") 
+    body = body.replace("):", ".html):") 
 
     filename = clean_filename(title)
 
@@ -48,7 +49,6 @@ for i, section in enumerate(sections[1:], start=2):
         f.write(f"""---
 title: {title}
 nav_order: {i}
-permalink: /{filename}
 ---
 
 # {title}
