@@ -3,4 +3,7 @@ description: An overview of the recent advancements in foundation models, includ
 author: Hatef Otroshi
 
 remote_theme: just-the-docs/just-the-docs
+
 search_enabled: true
+search:
+  label: "Search in Foundation Models and Biometrics Survey"
