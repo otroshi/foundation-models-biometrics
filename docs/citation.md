@@ -1,7 +1,6 @@
 ---
 title: ©️ Citation
 nav_order: 6
-permalink: /citation
 ---
 
 # ©️ Citation

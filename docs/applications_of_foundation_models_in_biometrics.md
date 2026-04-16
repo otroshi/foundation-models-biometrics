@@ -1,7 +1,6 @@
 ---
 title: 🔥 Applications of Foundation Models in Biometrics
 nav_order: 4
-permalink: /applications_of_foundation_models_in_biometrics
 ---
 
 # 🔥 Applications of Foundation Models in Biometrics

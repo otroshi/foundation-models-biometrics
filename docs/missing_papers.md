@@ -1,7 +1,6 @@
 ---
 title: 📚 Missing Papers
 nav_order: 5
-permalink: /missing_papers
 ---
 
 # 📚 Missing Papers

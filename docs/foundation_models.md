@@ -1,7 +1,6 @@
 ---
 title: ✨ Foundation Models
 nav_order: 3
-permalink: /foundation_models
 ---
 
 # ✨ Foundation Models
