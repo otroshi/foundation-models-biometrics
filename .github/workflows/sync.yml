@@ -1,0 +1,29 @@
+name: Auto-sync README to docs
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Copy README to docs
+        run: |
+          mkdir -p docs
+          cp README.md docs/index.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "Hatef Otroshi"
+          git config user.email "72525669+otroshi@users.noreply.github.com"
+          git add docs/index.md
+          git commit -m "[Sync] Auto-sync README to docs" || echo "No changes"
+          git push
