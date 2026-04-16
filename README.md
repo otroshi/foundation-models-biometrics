@@ -166,7 +166,36 @@ We appreciate your contributions and look forward to keeping this survey compreh
 ### Audio-Language Models (ALMs)
 
 <details>
-TODO
+
+| Model | Paper | Year | paper | code |
+|---|---|---|---|---|
+| Wav2Vec 2.0 | wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations | 2020 | [link](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html) | [link](https://github.com/facebookresearch/fairseq) |
+| HuBERT | Hubert: Self-supervised speech representation learning by masked prediction of hidden units | 2021 | [link](https://arxiv.org/abs/2106.07447) | [link](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert) |
+| WavLM | Wavlm: Large-scale self-supervised pre-training for full stack speech processing | 2022 | [link](https://arxiv.org/abs/2110.13900) | [link](https://github.com/microsoft/UniSpeech) |
+| Whisper | Robust speech recognition via large-scale weak supervision | 2023 | [link](https://proceedings.mlr.press/v202/radford23a.html) | [link](https://github.com/openai/whisper) |
+| USM | Google usm: Scaling automatic speech recognition beyond 100 languages | 2023 | [link](https://arxiv.org/abs/2303.01037) | NA |
+| UniAudio | Uniaudio: An audio foundation model toward universal audio generation | 2023 | [link](https://arxiv.org/abs/2310.00704) | [link](https://github.com/yangdongchao/UniAudio) |
+| MERT | Mert: Acoustic music understanding model with large-scale self-supervised training | 2023 | [link](https://openreview.net/pdf?id=w3YZ9MSlBu) | [link](https://github.com/yizhilll/MERT) |
+| CLAP | Clap learning audio concepts from natural language supervision | 2023 | [link](https://arxiv.org/abs/2206.04769) | [link](https://github.com/microsoft/CLAP) |
+| SenseVoice | Funaudiollm: Voice understanding and generation foundation models for natural interaction between humans and llms | 2024 | [link](https://arxiv.org/abs/2407.04051) | [link](https://github.com/FunAudioLLM/SenseVoice) |
+| CosyVoice | Cosyvoice: A scalable multilingual zero-shot text-to-speech synthesizer based on supervised semantic tokens | 2024 | [link](https://arxiv.org/abs/2407.05407) | [link](https://github.com/FunAudioLLM/CosyVoice) |
+| Vall-E | Neural codec language models are zero-shot text to speech synthesizers | 2023 | [link](https://arxiv.org/abs/2301.02111) | NA |
+| SpeechT5 | Speecht5: Unified-modal encoder-decoder pre-training for spoken language processing | 2021 | [link](https://aclanthology.org/2022.acl-long.393/) | [link](https://github.com/microsoft/speecht5) |
+| SLM | Slm: Bridge the thin gap between speech and text foundation models | 2023 | [link](https://arxiv.org/abs/2310.00230) | NA |
+| AudioGPT | Audiogpt: Understanding and generating speech, music, sound, and talking head | 2024 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/30570) | [link](https://github.com/AIGC-Audio/AudioGPT) |
+| SpeechGPT | SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities | 2023 | [link](https://aclanthology.org/2023.findings-emnlp.1055/) | [link](https://github.com/0nutation/SpeechGPT) |
+| AudioPaLM | Audiopalm: A large language model that can speak and listen | 2023 | [link](https://arxiv.org/abs/2306.12925) | NA |
+| SALMONN | SALMONN: Towards Generic Hearing Abilities for Large Language Models | 2024 | [link](https://openreview.net/pdf?id=14rn7HpKVk) | [link](https://github.com/bytedance/SALMONN) |
+| WavLLM | Wavllm: Towards robust and adaptive speech large language model | 2024 | [link](https://aclanthology.org/2024.findings-emnlp.263/) | [link](https://github.com/microsoft/SpeechT5/tree/main/WavLLM) |
+| Pengi | Pengi: An audio language model for audio tasks | 2023 | [link](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3a2e5889b4bbef997ddb13b55d5acf77-Abstract-Conference.html) | [link](https://github.com/microsoft/Pengi) |
+| LTU | Listen, Think, and Understand | 2024 | [link](https://openreview.net/pdf?id=nBZBPXdJlC) | [link](https://github.com/YuanGongND/ltu) |
+| GAMA | GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities | 2024 | [link](https://aclanthology.org/2024.emnlp-main.361/) | [link](https://sreyan88.github.io/gamaaudio/) |
+| Qwen2-Audio | Qwen2-audio technical report | 2024 | [link](https://arxiv.org/abs/2407.10759) | [link](https://github.com/qwenlm/qwen2-audio) |
+| SeamlessM4T | SeamlessM4T-Massively Multilingual \& Multimodal Machine Translation | 2023 | [link](https://arxiv.org/abs/2308.11596) | [link](https://github.com/facebookresearch/seamless_communication) |
+| Step-Audio | Step-Audio: Unified Understanding and Generation in Intelligent Speech Interaction | 2025 | [link](https://arxiv.org/abs/2502.11946) | [link](https://github.com/stepfun-ai/Step-Audio) |
+| MusicLM | Musiclm: Generating music from text | 2023 | [link](https://arxiv.org/abs/2301.11325) | NA |
+| AudioLDM | Audioldm: Text-to-audio generation with latent diffusion models | 2023 | [link](https://arxiv.org/abs/2301.12503) | [link](https://audioldm.github.io/) |
+
 </details>
 
 ### Large Multi-modal Models (LMMs)
