@@ -6,7 +6,9 @@
 <a href="https://forms.gle/NYNjhEKg6q4Pn1UM7" target="_blank">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">
 </a>
-
+<a href="https://otroshi.github.io/foundation-models-biometrics" target="_blank">
+  <img src="https://img.shields.io/badge/website-live-orange" alt="Website">
+</a>
 
 ## 🚀 About the Survey
 
