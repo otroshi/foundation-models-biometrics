@@ -11,13 +11,11 @@ intro = sections[0].strip()
 
 with open("docs/index.md", "w", encoding="utf-8") as f:
     f.write(f"""---
-title: Home
+title: 🏠Home
 nav_order: 1
 ---
 
-# Foundation Models and Biometrics
-
-{intro}
+Welcome to the survey on Foundation Models in Biometrics! This survey provides a comprehensive overview of the latest advancements in foundation models and their applications in the field of biometrics. We cover various types of foundation models, including large language models (LLMs), vision language models (VLMs), and multimodal models, and discuss their impact on biometric recognition, presentation attack detection, and other biometric applications.
 """)
 
 # Function to clean filenames
