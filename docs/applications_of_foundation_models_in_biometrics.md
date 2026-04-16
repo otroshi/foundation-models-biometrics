@@ -1,5 +1,9 @@
-# Applications of Foundation Models in Biometrics
+---
+title: Applications of Foundation Models in Biometrics
+nav_order: 4
+---
 
+# Applications of Foundation Models in Biometrics
 
 ### Foundation Models for Biometric Recognition
 
@@ -29,5 +33,3 @@ TODO
 <details>
 TODO
 </details>
-
-

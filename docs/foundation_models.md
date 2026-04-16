@@ -1,5 +1,9 @@
-# Foundation Models
+---
+title: Foundation Models
+nav_order: 3
+---
 
+# Foundation Models
 
 ### Large Language Models (LLMs)
 
@@ -156,6 +160,3 @@
 <details>
 TODO
 </details>
-
-
-

@@ -1,5 +1,9 @@
-# Citation
+---
+title: Citation
+nav_order: 6
+---
 
+# Citation
 
 ```bibtex
 @article{fmbiometrics2025survey,
