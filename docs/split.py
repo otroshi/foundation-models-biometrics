@@ -38,8 +38,8 @@ for i, section in enumerate(sections[1:], start=2):
     title = lines[0].strip()
     body = "\n".join(lines[1:]).strip()
 
-    body = body.replace("](#", "](./") 
-    body = body.replace("):", ".html):") 
+    body = body.replace("(#-foundation-models)", "./foundation-models.html") 
+    body = body.replace("(#-applications-of-foundation-models-in-biometrics)", "./applications-of-foundation-models-in-biometrics.html") 
 
     filename = clean_filename(title)
 
