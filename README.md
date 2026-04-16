@@ -7,8 +7,6 @@
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">
 </a>
 
-* TOC
-{:toc}
 
 ## 🚀 About the Survey
 
@@ -31,7 +29,7 @@ In this section, we review recent advancements in foundation models and mention 
 In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats.
 
 - [**Applications of Foundation Models in Biometrics**](#applications-of-foundation-models-in-biometrics):
-In this section, we review recent work on the applications of foundation models in biometrics:
+In this section, we review recent papers on the applications of foundation models in biometrics:
   - [**Foundation Models for Biometric Recognition**](#foundation-models-for-biometric-recognition)
   - [**Foundation Models for Soft-biometric Detection**](#foundation-models-for-soft-biometric-detection)
   - [**Foundation Models for Deepfake and Forgery Detection**](#foundation-models-for-deepfake-and-forgery-detection)
@@ -40,11 +38,12 @@ In this section, we review recent work on the applications of foundation models 
 
 
 
-## Foundation Models
+## ✨ Foundation Models
+
+In this section, we review recent advancements in foundation models and mention state-of-the-art models. We catgeorise foundation models in four different catgories:
 
 ### Large Language Models (LLMs)
 
-<details>
 
 | Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
@@ -77,7 +76,6 @@ In this section, we review recent work on the applications of foundation models 
 | DeepSeek-R1 | DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learnin | 2025 | [link](https://www.nature.com/articles/s41586-025-09422-z) | [link](https://github.com/deepseek-ai/DeepSeek-R1) |
 | ReasonFlux | ReasonFlux: Hierarchical LLM reasoning via scaling thought templates | 2025 | [link](https://arxiv.org/abs/2502.06772) | [link](https://github.com/Gen-Verse/ReasonFlux) |
 
-</details>
 
 ### Vision Language Models (VLMs)
 
@@ -200,7 +198,8 @@ TODO
 
 
 
-## Applications of Foundation Models in Biometrics
+## 🔥 Applications of Foundation Models in Biometrics
+In this section, we review recent papers on the applications of foundation models in biometrics:
 
 ### Foundation Models for Biometric Recognition
 
