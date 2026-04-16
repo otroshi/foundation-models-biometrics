@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">
 </a>
 
+* TOC
+{:toc}
 
 ## 🚀 About the Survey
 
