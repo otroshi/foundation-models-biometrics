@@ -44,7 +44,6 @@ In this section, we review recent advancements in foundation models and mention 
 
 ### Vision Language Models (VLMs)
 
-<details>
 
 | Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
@@ -118,11 +117,9 @@ In this section, we review recent advancements in foundation models and mention 
 | T2V | Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model | 2025 | [link](https://arxiv.org/abs/2502.10248) | [link](https://github.com/stepfun-ai/Step-Video-T2V) |
 | Sora | [blog] Sora: Creating Video from Text | 2024 | [link](https://openai.com/index/sora/) | NA |
 
-</details>
 
 ### Audio-Language Models (ALMs)
 
-<details>
 
 | Model | Paper Title | Year | Paper | Code |
 |---|---|---|---|---|
@@ -153,7 +150,6 @@ In this section, we review recent advancements in foundation models and mention 
 | MusicLM | Musiclm: Generating music from text | 2023 | [link](https://arxiv.org/abs/2301.11325) | NA |
 | AudioLDM | Audioldm: Text-to-audio generation with latent diffusion models | 2023 | [link](https://arxiv.org/abs/2301.12503) | [link](https://audioldm.github.io/) |
 
-</details>
 
 ### Large Multi-modal Models (LMMs)
 

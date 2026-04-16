@@ -21,7 +21,7 @@ In this section, we review recent advancements in foundation models and mention 
   - [**Large Multi-modal Models (LMMs)**](#large-multi-modal-models-lmms)
 
 - **Biometric Recognition and Security**:
-In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats.
+In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats. For information about this section, we refer the readers to Section III of our survey paper.
 
 - [**Applications of Foundation Models in Biometrics**](#applications-of-foundation-models-in-biometrics):
 In this section, we review recent papers on the applications of foundation models in biometrics:
