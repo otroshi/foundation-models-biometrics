@@ -20,21 +20,21 @@ The survey is structured as follows for clarity and readability:
 
 - [**Foundation Models**](#foundation-models):
 In this section, we review recent advancements in foundation models and mention state-of-the-art models. We catgeorise foundation models in four different catgories:
-  - [**Large Language Models (LLMs)**](#large-language-models-llms)
-  - [**Vision Language Models (VLMs)**](#vision-language-models-vlms)
-  - [**Audio-Language Models (ALMs)**](#audio-language-models-alms)
-  - [**Large Multi-modal Models (LMMs)**](#large-multi-modal-models-lmms)
+  - **Large Language Models (LLMs)**
+  - **Vision Language Models (VLMs)**
+  - **Audio-Language Models (ALMs)**
+  - **Large Multi-modal Models (LMMs)**
 
 - **Biometric Recognition and Security**:
 In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats. For information about this section, we refer the readers to Section III of our survey paper.
 
 - [**Applications of Foundation Models in Biometrics**](#applications-of-foundation-models-in-biometrics):
 In this section, we review recent papers on the applications of foundation models in biometrics:
-  - [**Foundation Models for Biometric Recognition**](#foundation-models-for-biometric-recognition)
-  - [**Foundation Models for Soft-biometric Detection**](#foundation-models-for-soft-biometric-detection)
-  - [**Foundation Models for Deepfake and Forgery Detection**](#foundation-models-for-deepfake-and-forgery-detection)
-  - [**Foundation Models for Anti-spoofing**](#foundation-models-for-anti-spoofing)
-  - [**Foundation Models for Synthetic Biometric Generation**](#foundation-models-for-synthetic-biometric-generation)
+  - **Foundation Models for Biometric Recognition**
+  - **Foundation Models for Soft-biometric Detection**
+  - **Foundation Models for Deepfake and Forgery Detection**
+  - **Foundation Models for Anti-spoofing**
+  - **Foundation Models for Synthetic Biometric Generation**
 
 
 
@@ -229,7 +229,7 @@ TODO
 
 ## 📚 Missing Papers
 
-We will keep updating this survey and this git repository. Please contact the first author (hatef.otroshi@idiap.ch) or complete the following form to submit your paper for citation.  
+We will keep updating the [git repository](https://github.com/otroshi/foundation-models-biometrics) and [webpage](https://otroshi.github.io/foundation-models-biometrics/) of our survey. Please contact the first author (hatef.otroshi@idiap.ch) or complete the following form to add your paper:
 
 👉 [Submit Your Paper](https://forms.gle/NYNjhEKg6q4Pn1UM7)
 
