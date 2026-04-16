@@ -38,7 +38,7 @@ for i, section in enumerate(sections[1:], start=2):
     title = lines[0].strip()
     body = "\n".join(lines[1:]).strip()
 
-    body = body.replace("](#", "](/") 
+    body = body.replace("](#", "](./") 
 
     filename = clean_filename(title)
 
