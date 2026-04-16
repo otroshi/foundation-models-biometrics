@@ -32,6 +32,21 @@ def clean_filename(title):
     title = title.replace(" ", "_")
     return title
 
+def insert_toc(body):
+    # find first ### heading
+    match = re.search(r"\n###\s+", body)
+
+    if match:
+        idx = match.start()
+        return body[:idx] + "\n\n* TOC\n{:toc}\n\n" + body[idx:]
+    else:
+        return body
+    
+TOC_PAGES = {
+    "foundation_models",
+    "applications_of_foundation_models_in_biometrics"
+}
+
 # Process sections
 for i, section in enumerate(sections[1:], start=2):
     lines = section.strip().split("\n")
@@ -41,6 +56,9 @@ for i, section in enumerate(sections[1:], start=2):
     body = body.replace("(#-foundation-models)", "./foundation-models.html") 
     body = body.replace("(#-applications-of-foundation-models-in-biometrics)", "./applications-of-foundation-models-in-biometrics.html") 
 
+    if title.lower() in TOC_PAGES:
+        body = insert_toc(body)
+        
     filename = clean_filename(title)
 
     filepath = f"docs/{filename}.md"
