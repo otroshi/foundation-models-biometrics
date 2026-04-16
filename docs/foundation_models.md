@@ -7,6 +7,11 @@ nav_order: 3
 
 In this section, we review recent advancements in foundation models and mention state-of-the-art models. We catgeorise foundation models in four different catgories:
 
+
+* TOC
+{:toc}
+
+
 ### Large Language Models (LLMs)
 
 

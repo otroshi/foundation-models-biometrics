@@ -23,7 +23,7 @@ In this section, we review recent advancements in foundation models and mention 
 - **Biometric Recognition and Security**:
 In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats. For information about this section, we refer the readers to Section III of our survey paper.
 
-- [**Applications of Foundation Models in Biometrics**](./applications_of_foundation_models_in_biometrics.html:
+- [**Applications of Foundation Models in Biometrics**](./applications_of_foundation_models_in_biometrics.html):
 In this section, we review recent papers on the applications of foundation models in biometrics:
   - **Foundation Models for Biometric Recognition**
   - **Foundation Models for Soft-biometric Detection**

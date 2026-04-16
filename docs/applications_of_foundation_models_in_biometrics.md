@@ -7,6 +7,11 @@ nav_order: 4
 
 In this section, we review recent papers on the applications of foundation models in biometrics:
 
+
+* TOC
+{:toc}
+
+
 ### Foundation Models for Biometric Recognition
 
 <details>
