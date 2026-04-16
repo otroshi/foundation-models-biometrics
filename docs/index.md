@@ -1,15 +1,6 @@
 ---
-title: Home
+title: 🏠Home
 nav_order: 1
 ---
 
-# Foundation Models and Biometrics
-
-# Foundation Models and Biometrics
-
-<a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.174119169.94570936" target="_blank">
-  <img src="https://img.shields.io/badge/TechRxiv-002855.svg?logo=ieee" alt="TechRxiv">
-</a>
-<a href="https://forms.gle/NYNjhEKg6q4Pn1UM7" target="_blank">
-  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">
-</a>
+Welcome to the survey on Foundation Models in Biometrics! This survey provides a comprehensive overview of the latest advancements in foundation models and their applications in the field of biometrics. We cover various types of foundation models, including large language models (LLMs), vision language models (VLMs), and multimodal models, and discuss their impact on biometric recognition, presentation attack detection, and other biometric applications.

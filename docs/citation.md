@@ -1,9 +1,9 @@
 ---
-title: Citation
+title: ©️ Citation
 nav_order: 6
 ---
 
-# Citation
+# ©️ Citation
 
 ```bibtex
 @article{fmbiometrics2025survey,
