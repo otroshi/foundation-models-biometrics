@@ -18,23 +18,23 @@ Biometrics is also an active field of research, which involves various research 
 
 The survey is structured as follows for clarity and readability:
 
-- **Foundation Models**:
+- [**Foundation Models**](#foundation-models):
 In this section, we review recent advancements in foundation models and mention state-of-the-art models. We catgeorise foundation models in four different catgories:
-  - **Large Language Models (LLMs)**
-  - **Vision Language Models (VLMs)**
-  - **Audio-Language Models (ALMs)**
-  - **Large Multi-modal Models (LMMs)**
+  - [**Large Language Models (LLMs)**](#large-language-models-llms)
+  - [**Vision Language Models (VLMs)**](#vision-language-models-vlms)
+  - [**Audio-Language Models (ALMs)**](#audio-language-models-alms)
+  - [**Large Multi-modal Models (LMMs)**](#large-multi-modal-models-lmms)
 
 - **Biometric Recognition and Security**:
-In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and pprivacy threats.
+In this section, we review the general pipeline of biometric systems. We describe attack points in biometric systems and discuss security and privacy threats.
 
-- **Applications of Foundation Models in Biometrics**:
+- [**Applications of Foundation Models in Biometrics**](#applications-of-foundation-models-in-biometrics):
 In this section, we review recent work on the applications of foundation models in biometrics:
-  - **Foundation Models for Biometric Recognition**
-  - **Foundation Models for Soft-biometric Detection**
-  - **Foundation Models for Deepfake and Forgery Detection**
-  - **Foundation Models for Anti-spoofing**
-  - **Foundation Models for Synthetic Biometric Generation**
+  - [**Foundation Models for Biometric Recognition**](#foundation-models-for-biometric-recognition)
+  - [**Foundation Models for Soft-biometric Detection**](#foundation-models-for-soft-biometric-detection)
+  - [**Foundation Models for Deepfake and Forgery Detection**](#foundation-models-for-deepfake-and-forgery-detection)
+  - [**Foundation Models for Anti-spoofing**](#foundation-models-for-anti-spoofing)
+  - [**Foundation Models for Synthetic Biometric Generation**](#foundation-models-for-synthetic-biometric-generation)
 
 
 
@@ -83,14 +83,84 @@ We appreciate your contributions and look forward to keeping this survey compreh
 | DeepSeek-R1 | DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learnin | 2025 | [link](https://www.nature.com/articles/s41586-025-09422-z) | [link](https://github.com/deepseek-ai/DeepSeek-R1) |
 | ReasonFlux | ReasonFlux: Hierarchical LLM reasoning via scaling thought templates | 2025 | [link](https://arxiv.org/abs/2502.06772) | [link](https://github.com/Gen-Verse/ReasonFlux) |
 
-
-
 </details>
 
 ### Vision Language Models (VLMs)
 
 <details>
-TODO
+
+| Model | Paper | Year | paper | code |
+|---|---|---|---|---|
+| DINO | Emerging properties in self-supervised vision transformers | 2021 | [link](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf) | [link](https://github.com/facebookresearch/dino) |
+| DINOv2 | Dinov2: Learning robust visual features without supervision | 2023 | [link](https://openreview.net/pdf?id=a68SUt6zFt) | [link](https://github.com/facebookresearch/dinov2) |
+| BEiT | Beit: Bert pre-training of image transformers | 2021 | [link](https://openreview.net/pdf?id=p-BhZSz59o4) | [link](https://github.com/microsoft/unilm) |
+| CLIP | Learning transferable visual models from natural language supervision | 2021 | [link](https://proceedings.mlr.press/v139/radford21a) | [link](https://github.com/openai/CLIP) |
+| ALIGN | Scaling up visual and vision-language representation learning with noisy text supervision | 2021 | [link](https://proceedings.mlr.press/v139/jia21b.html) | NA |
+| FLAVA | Flava: A foundational language and vision alignment model | 2022 | [link](https://openaccess.thecvf.com/content/CVPR2022/html/Singh_FLAVA_A_Foundational_Language_and_Vision_Alignment_Model_CVPR_2022_paper) | [link](https://flava-model.github.io/) |
+| Florence | Florence: A new foundation model for computer vision | 2021 | [link](https://arxiv.org/abs/2111.11432) | NA |
+| OFA | Ofa: Unifying architectures, tasks, and modalities through a simple sequence-to-sequence learning framework | 2022 | [link](http://proceedings.mlr.press/v162/wang22al.html) | [link](https://github.com/ofa-sys/ofa) |
+| Unified-IO | Unified-io: A unified model for vision, language, and multi-modal tasks | 2022 | [link](https://openreview.net/pdf?id=E01k9048soZ) | [link](https://unified-io.allenai.org/) |
+| AIM | Scalable Pre-training of Large Autoregressive Image Models | 2024 | [link](https://proceedings.mlr.press/v235/el-nouby24a.html) | [link](https://github.com/apple/ml-aim) |
+| AIMv2 | Multimodal Autoregressive Pre-training of Large Vision Encoders | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Fini_Multimodal_Autoregressive_Pre-training_of_Large_Vision_Encoders_CVPR_2025_paper.html) | [link](https://github.com/apple/ml-aim) |
+| BLIP | Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation | 2022 | [link](https://proceedings.mlr.press/v162/li22n.html) | [link](https://github.com/salesforce/BLIP) |
+| BLIP 2 | Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models | 2023 | [link](https://proceedings.mlr.press/v202/li23q) | [link](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) |
+| SigLIP | Sigmoid loss for language image pre-training | 2023 | [link](https://openaccess.thecvf.com/content/ICCV2023/html/Zhai_Sigmoid_Loss_for_Language_Image_Pre-Training_ICCV_2023_paper.html) | [link](https://github.com/google-research/big_vision?tab=readme-ov-file#image-text-training-with-siglip) |
+| SigLIP 2 | Siglip 2: Multilingual vision-language encoders with improved semantic understanding, localization, and dense features | 2025 | [link](https://arxiv.org/abs/2502.14786) | [link](https://github.com/google-research/big_vision/blob/main/big_vision/configs/proj/image_text/README_siglip2.md) |
+| OpenCLIP | Reproducible Scaling Laws for Contrastive Language-Image Learning | 2023 | [link](https://openaccess.thecvf.com/content/CVPR2023/html/Cherti_Reproducible_Scaling_Laws_for_Contrastive_Language-Image_Learning_CVPR_2023_paper) | [link](https://github.com/laion-ai/scaling-laws-openclip) |
+| SAM | Segment anything | 2023 | [link](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html) | [link](https://github.com/facebookresearch/segment-anything) |
+| SAM~2 | Sam 2: Segment anything in images and videos | 2024 | [link](https://openreview.net/pdf?id=Ha6RTeWMd0) | [link](https://github.com/facebookresearch/sam2) |
+| DALL-E | Zero-shot text-to-image generation | 2021 | [link](https://proceedings.mlr.press/v139/ramesh21a.html) | NA |
+| DALL-E 2 | Hierarchical text-conditional image generation with clip latents | 2022 | [link](https://arxiv.org/abs/2204.06125) | NA |
+| DALL-E~3 | Improving image generation with better captions | 2023 | [link](https://arxiv.org/abs/2006.11807) | NA |
+| Stable Diffusion | High-resolution image synthesis with latent diffusion models | 2022 | [link](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html?utm_source=rns.dwaiai.de) | [link](https://github.com/CompVis/latent-diffusion) |
+| Imagen 3 | Imagen 3 | 2024 | [link](https://arxiv.org/abs/2408.07009) | NA |
+| Edify | Edify Image: High-Quality Image Generation with Pixel Space Laplacian Diffusion Models | 2024 | [link](https://arxiv.org/abs/2411.07126) | NA |
+| LlamaGen | Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation | 2024 | [link](https://arxiv.org/abs/2406.06525) | [link](https://github.com/FoundationVision/LlamaGen) |
+| GPT-4V | GPT-4V | 2024 | [link](https://cdn.openai.com/papers/GPTV_System_Card.pdf) | NA |
+| MiniGPT-4 | Minigpt-4: Enhancing vision-language understanding with advanced large language models | 2023 | [link](https://openreview.net/pdf?id=1tZbq88f27) | [link](https://minigpt-4.github.io/) |
+| Flamingo | Flamingo: a Visual Language Model for Few-Shot Learning | 2022 | [link](https://proceedings.neurips.cc/paper_files/paper/2022/hash/960a172bc7fbf0177ccccbb411a7d800-Abstract-Conference.html) | NA |
+| LLaVa | Improved baselines with visual instruction tuning | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Improved_Baselines_with_Visual_Instruction_Tuning_CVPR_2024_paper.html) | [link](https://llava-vl.github.io/) |
+| Video-LLaVa | Video-LLaVA: Learning United Visual Representation by Alignment Before Projection | 2023 | [link](https://aclanthology.org/2024.emnlp-main.342/) | [link](https://github.com/PKU-YuanGroup/Video-LLaVA) |
+| Pixtral | Pixtral 12B | 2024 | [link](https://arxiv.org/abs/2410.07073) | [link](https://huggingface.co/mistralai/Pixtral-12B-2409) |
+| Phi-3.5-Vision | Phi-3 technical report: A highly capable language model locally on your phone | 2024 | [link](https://arxiv.org/abs/2404.14219) | [link](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) |
+| VILA | Vila: On pre-training for visual language models | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Lin_VILA_On_Pre-training_for_Visual_Language_Models_CVPR_2024_paper.html) | [link](https://github.com/NVlabs/VILA) |
+| NVILA | NVILA: Efficient frontier visual language models | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_NVILA_Efficient_Frontier_Visual_Language_Models_CVPR_2025_paper.html) | [link](https://github.com/NVlabs/VILA) |
+| VILA-U | Vila-u: a unified foundation model integrating visual understanding and generation | 2024 | [link](https://openreview.net/pdf?id=02haSpO453) | [link](https://github.com/mit-han-lab/vila-u) |
+| TokenFlow | Tokenflow: Unified image tokenizer for multimodal understanding and generation | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Qu_TokenFlow_Unified_Image_Tokenizer_for_Multimodal_Understanding_and_Generation_CVPR_2025_paper.html) | [link](https://github.com/ByteVisionLab/TokenFlow) |
+| VAR | Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction | 2024 | [link](https://proceedings.neurips.cc/paper_files/paper/2024/hash/9a24e284b187f662681440ba15c416fb-Abstract-Conference.html) | [link](https://github.com/FoundationVision/VAR) |
+| InstructBLIP | Instructblip: Towards general-purpose vision-language models with instruction tuning | 2023 | [link](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9a6a435e75419a836fe47ab6793623e6-Abstract-Conference.html) | [link](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) |
+| Yi-VL | Yi: Open foundation models by 01. ai | 2024 | [link](https://arxiv.org/abs/2403.04652) | [link](https://huggingface.co/01-ai/Yi-VL-6B) |
+| Qwen-VL | Qwen-vl: A versatile vision-language model for understanding, localization, text reading, and beyond | 2023 | [link](https://arxiv.org/abs/2308.12966) | [link](https://github.com/QwenLM/Qwen-VL) |
+| Qwen2-VL | Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution | 2024 | [link](https://arxiv.org/abs/2409.12191) | [link](https://huggingface.co/collections/Qwen/qwen2-vl) |
+| Qwen2.5-VL | Qwen2.5-VL Technical Report | 2025 | [link](https://arxiv.org/abs/2502.13923) | [link](https://huggingface.co/collections/Qwen/qwen25-vl) |
+| InternVL | Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.html) | [link](http://github.com/opengvlab/internvl) |
+| InternVL 1.5 | How far are we to gpt-4v? closing the gap to commercial multimodal models with open-source suites | 2024 | [link](https://arxiv.org/abs/2404.16821) | [link](http://github.com/opengvlab/internvl) |
+| InternVL3 | Internvl3: Exploring advanced training and test-time recipes for open-source multimodal models | 2025 | [link](https://arxiv.org/abs/2504.10479) | [link](http://github.com/opengvlab/internvl) |
+| InternVideo2 | InternVideo2: Scaling Foundation Models for Multimodal Video Understanding | 2024 | [link](https://arxiv.org/abs/2403.15377) | [link](https://github.com/opengvlab/internvideo) |
+| LLaVa-OneVision | LLaVA-OneVision: Easy Visual Task Transfer | 2024 | [link](https://openreview.net/pdf?id=zKv8qULV6n) | [link](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/) |
+| LLaVa-NeXT | Llava-next-interleave: Tackling multi-image, video, and 3d in large multimodal models | 2024 | [link](https://arxiv.org/abs/2407.07895) | [link](https://github.com/LLaVA-VL/LLaVA-NeXT) |
+| CogVLM2 | Cogvlm2: Visual language models for image and video understanding | 2024 | [link](https://arxiv.org/abs/2408.16500) | [link](https://github.com/zai-org/CogVLM2) |
+| Bunny | Efficient multimodal learning from data-centric perspective | 2024 | [link](https://arxiv.org/abs/2402.11530) | [link](https://github.com/BAAI-DCAI/Bunny) |
+| Chameleon | Chameleon: Mixed-Modal Early-Fusion Foundation Models | 2024 | [link](https://arxiv.org/abs/2405.09818) | [link](https://github.com/facebookresearch/chameleon) |
+| Apollo | Apollo: An Exploration of Video Understanding in Large Multimodal Models | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Zohar_Apollo__An_Exploration_of_Video_Understanding_in_Large_Multimodal_CVPR_2025_paper.html) | [link](https://apollo-lmms.github.io/) |
+| DeepSeek-VL | DeepSeek-VL: Towards Real-World Vision-Language Understanding | 2024 | [link](https://arxiv.org/abs/2403.05525) | [link](https://github.com/deepseek-ai/DeepSeek-VL) |
+| DeepSeek-VL2 | DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding | 2024 | [link](https://arxiv.org/abs/2412.10302) | [link](https://github.com/deepseek-ai/DeepSeek-VL2) |
+| Emu 3 | Emu3: Next-Token Prediction is All You Need | 2024 | [link](https://arxiv.org/abs/2409.18869) | [link](https://github.com/baaivision/Emu3) |
+| Janus | Janus: Decoupling visual encoding for unified multimodal understanding and generation | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Janus_Decoupling_Visual_Encoding_for_Unified_Multimodal_Understanding_and_Generation_CVPR_2025_paper.html) | [link](https://github.com/deepseek-ai/Janus) |
+| JanusFlow | JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Ma_JanusFlow_Harmonizing_Autoregression_and_Rectified_Flow_for_Unified_Multimodal_Understanding_CVPR_2025_paper.html) | [link](https://github.com/deepseek-ai/Janus) |
+| Janus-Pro | Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling | 2025 | [link](https://arxiv.org/abs/2501.17811) | [link](https://github.com/deepseek-ai/Janus) |
+| Movie Gen | Movie Gen: A Cast of Media Foundation Models | 2024 | [link](https://arxiv.org/abs/2410.13720) | NA |
+| Mochi | [blog] Mochi 1: A new SOTA in open text-to-video | 2024 | [link](https://www.genmo.ai/blog) | [link](https://github.com/genmoai/mochi) |
+| Imagen Video | Imagen video: High definition video generation with diffusion models | 2022 | [link](https://arxiv.org/abs/2210.02303) | NA |
+| Make-A-Video | Make-A-Video: Text-to-Video Generation without Text-Video Data | 2023 | [link](https://openreview.net/pdf?id=nJfylDvgzlq) | [link](https://make-a-video.github.io/) |
+| Tune-A-Video | Tune-a-video: One-shot tuning of image diffusion models for text-to-video generation | 2023 | [link](http://openaccess.thecvf.com/content/ICCV2023/html/Wu_Tune-A-Video_One-Shot_Tuning_of_Image_Diffusion_Models_for_Text-to-Video_Generation_ICCV_2023_paper.html) | [link](https://tuneavideo.github.io/) |
+| PixelDance | Make pixels dance: High-dynamic video generation | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Zeng_Make_Pixels_Dance_High-Dynamic_Video_Generation_CVPR_2024_paper.html) | [link](https://makepixelsdance.github.io/) |
+| CogVideoX | CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer | 2024 | [link](https://openreview.net/pdf?id=LQzN6TRFg9) | [link](https://github.com/zai-org/CogVideo) |
+| FlashVideo | FlashVideo:Flowing Fidelity to Detail for Efficient High-Resolution Video Generation | 2025 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/38270) | [link](https://github.com/FoundationVision/FlashVideo) |
+| Goku | Goku: Flow Based Video Generative Foundation Models | 2025 | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Goku_Flow_Based_Video_Generative_Foundation_Models_CVPR_2025_paper.html) | [link](https://github.com/Saiyan-World/goku) |
+| T2V | Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model | 2025 | [link](https://arxiv.org/abs/2502.10248) | [link](https://github.com/stepfun-ai/Step-Video-T2V) |
+| Sora | [blog] Sora: Creating Video from Text | 2024 | [link](https://openai.com/index/sora/) | NA |
+
 </details>
 
 ### Audio-Language Models (ALMs)
