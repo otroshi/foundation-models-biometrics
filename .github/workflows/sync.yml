@@ -15,10 +15,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Copy README to docs
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Split README into docs pages
         run: |
-          mkdir -p docs
-          cp README.md docs/index.md
+          python docs/split.py
 
       - name: Commit and push if changed
         run: |
