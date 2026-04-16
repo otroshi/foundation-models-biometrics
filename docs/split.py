@@ -54,14 +54,14 @@ for i, section in enumerate(sections[1:], start=2):
     body = "\n".join(lines[1:]).strip()
 
     body = body.replace("(#-foundation-models)", "(./foundation_models.html)") 
-    body = body.replace("(#-applications-of-foundation-models-in-biometrics)", "(./applications_of_foundation_models_in_biometrics.html") 
-
-    if title.lower() in TOC_PAGES:
-        body = insert_toc(body)
+    body = body.replace("(#-applications-of-foundation-models-in-biometrics)", "(./applications_of_foundation_models_in_biometrics.html)") 
 
     filename = clean_filename(title)
 
     filepath = f"docs/{filename}.md"
+
+    if filename in TOC_PAGES:
+        body = insert_toc(body)
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"""---
