@@ -156,6 +156,17 @@ In this section, we review recent advancements in foundation models and mention 
 
 ### Large Multi-modal Models (LMMs)
 
-<details>
-TODO
-</details>
+| Model | Paper Title | Year | Paper | Code |
+|---|---|---|---|---|
+| AudioCLIP | Audioclip: Extending clip to image, text and audio | 2022 | [link](https://arxiv.org/abs/2106.13043) | [link](https://github.com/AndreyGuzhov/AudioCLIP) |
+| 4M | 4m: Massively multimodal masked modeling | 2023 | [link](https://proceedings.neurips.cc/paper_files/paper/2023/hash/b6446566965fa38e183650728ab70318-Abstract-Conference.html) | [link](https://4m.epfl.ch/) |
+| ImageBind | Imagebind: One embedding space to bind them all | 2023 | [link](https://openaccess.thecvf.com/content/CVPR2023/html/Girdhar_ImageBind_One_Embedding_Space_To_Bind_Them_All_CVPR_2023_paper.html) | [link](https://github.com/facebookresearch/imagebind) |
+| PandaGPT | Pandagpt: One model to instruction-follow them all | 2023 | [link](https://aclanthology.org/2023.tllm-1.2/) | [link](https://panda-gpt.github.io/) |
+| NeXT-GPT | NExT-GPT: Any-to-Any Multimodal LLM | 2023 | [link](https://proceedings.mlr.press/v235/wu24e.html) | [link](https://next-gpt.github.io/) |
+| Video-LLaMA | Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding | 2023 | [link](https://aclanthology.org/2023.emnlp-demo.49/) | [link](https://github.com/DAMO-NLP-SG/Video-LLaMA) |
+| Video-LLaMA2 | VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs | 2024 | [link](https://arxiv.org/abs/2406.07476) | [link](https://github.com/DAMO-NLP-SG/VideoLLaMA2) |
+| Video-SALMONN | video-salmonn: Speech-enhanced audio-visual large language models | 2024 | [link](https://proceedings.mlr.press/v235/sun24l.html) | [link](https://github.com/bytedance/SALMONN/) |
+| Gemini Pro | Gemini: a family of highly capable multimodal models | 2023 | [link](https://arxiv.org/abs/2312.11805) | NA |
+| LLaMA 3 | The llama 3 herd of models | 2024 | [link](https://arxiv.org/abs/2407.21783) | [link](https://github.com/meta-llama/llama3) |
+| Qwen2.5-Omni | Qwen2. 5-omni technical report | 2025 | [link](https://arxiv.org/abs/2503.20215) | [link](https://github.com/QwenLM/Qwen2.5-Omni) |
+| GPT-4o | GPT-4o System Card | 2024 | [link](https://arxiv.org/abs/2410.21276) | NA |
