@@ -9,7 +9,7 @@ In this section, we review recent papers on the applications of foundation model
 
 
 * TOC
-{:toc}
+{:toc .toc-level-3}
 
 
 ### Foundation Models for Biometric Recognition

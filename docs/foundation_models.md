@@ -9,7 +9,7 @@ In this section, we review recent advancements in foundation models and mention 
 
 
 * TOC
-{:toc}
+{:toc .toc-level-3}
 
 
 ### Large Language Models (LLMs)
