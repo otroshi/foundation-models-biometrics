@@ -6,10 +6,10 @@ nav_order: 3
 # ✨ Foundation Models
 
 In this section, we review recent advancements in foundation models and mention state-of-the-art models. We catgeorise foundation models in four different catgories:
-- [Large Language Models LLMs](#large-language-models-llms)
-- [Vision Language Models VLMs](#vision-language-models-vlms)
-- [Audio-Language Models ALMs](#audio-language-models-alms)
-- [Large Multi-modal Models LMMs](#large-multi-modal-models-lmms)
+- [Large Language Models (LLMs)](#large-language-models-llms)
+- [Vision Language Models (VLMs)](#vision-language-models-vlms)
+- [Audio-Language Models (ALMs)](#audio-language-models-alms)
+- [Large Multi-modal Models (LMMs)](#large-multi-modal-models-lmms)
 ### Large Language Models (LLMs)
 
 
