@@ -32,6 +32,16 @@ def clean_filename(title):
     title = title.replace(" ", "_")
     return title
 
+def insert_custom_toc(body):
+    toc = []
+    for line in body.split("\n"):
+        if line.startswith("### "):
+            title = line.replace("### ", "").strip()
+            anchor = title.lower().replace(" ", "-")
+            toc.append(f"- [{title}](#{anchor})")
+
+    return "\n".join(toc)
+
 def insert_toc(body):
     # find first ### heading
     match = re.search(r"\n###\s+", body)
@@ -61,7 +71,7 @@ for i, section in enumerate(sections[1:], start=2):
     filepath = f"docs/{filename}.md"
 
     if filename in TOC_PAGES:
-        body = insert_toc(body)
+        body = insert_custom_toc(body)
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"""---
