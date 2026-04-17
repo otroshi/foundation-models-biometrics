@@ -37,8 +37,8 @@ def build_custom_toc(body):
     for line in body.split("\n"):
         if line.startswith("### "):
             title = line.replace("### ", "").strip()
-            title = re.sub(r"[^\w\s-]", "", title)  # Remove special characters for anchor
-            anchor = title.lower().replace(" ", "-")
+            anchor = re.sub(r"[^\w\s-]", "", title)  # Remove special characters for anchor
+            anchor = anchor.lower().replace(" ", "-")
             toc.append(f"- [{title}](#{anchor})")
 
     return "\n".join(toc)
