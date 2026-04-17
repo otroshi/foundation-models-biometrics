@@ -32,7 +32,7 @@ def clean_filename(title):
     title = title.replace(" ", "_")
     return title
 
-def insert_custom_toc(body):
+def build_custom_toc(body):
     toc = []
     for line in body.split("\n"):
         if line.startswith("### "):
@@ -48,7 +48,8 @@ def insert_toc(body):
 
     if match:
         idx = match.start()
-        return body[:idx] + "\n\n* TOC\n{:toc .toc-level-3}\n\n" + body[idx:]
+        # return body[:idx] + "\n\n* TOC\n{:toc .toc-level-3}\n\n" + body[idx:]
+        return body[:idx] + build_custom_toc(body) + body[idx:]    
     else:
         return body
     
@@ -71,7 +72,7 @@ for i, section in enumerate(sections[1:], start=2):
     filepath = f"docs/{filename}.md"
 
     if filename in TOC_PAGES:
-        body = insert_custom_toc(body)
+        body = insert_toc(body)
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"""---
