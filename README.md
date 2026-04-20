@@ -54,6 +54,11 @@ In this section, we review recent papers on the applications of foundation model
 
 In this section, we review recent advancements in foundation models and mention state-of-the-art models. We catgeorise foundation models in four different catgories:
 
+- [Large Language Models (LLMs)](#large-language-models-llms)
+- [Vision Language Models (VLMs)](#vision-language-models-vlms)
+- [Audio-Language Models (ALMs)](#audio-language-models-ams)
+- [Large Multi-modal Models (LMMs)](#large-multi-modal-models-lmms)
+
 ### Large Language Models (LLMs)
 
 
@@ -220,6 +225,11 @@ In this section, we review recent advancements in foundation models and mention 
 
 ## 🔥 Applications of Foundation Models in Biometrics
 In this section, we review recent papers on the applications of foundation models in biometrics:
+
+- [Large Language Models (LLMs)](#large-language-models-llms)
+- [Vision Language Models (VLMs)](#vision-language-models-vlms)
+- [Audio-Language Models (ALMs)](#audio-language-models-ams)
+- [Large Multi-modal Models (LMMs)](#large-multi-modal-models-lmms)
 
 ### Foundation Models for Biometric Recognition
 
