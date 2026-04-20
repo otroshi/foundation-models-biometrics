@@ -9,6 +9,8 @@ This paper provides an overview of the recent advancements in foundation models 
 Biometrics is also an active field of research, which involves various research problems, ranging from robust recognition to security and privacy in biometric systems. In this paper, we present an in-depth analysis of state-of-the-art methodologies regarding foundation multi-modal models, their advancements, and their applicability to biometrics tasks. We also highlight current limitations and provide insights into potential future research directions in the applications of foundation models in biometrics. To our knowledge, this paper is the **first survey** which investigates the *applications of foundation models in biometrics*.
 [<a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.174119169.94570936" target="_blank">
   Link to pre-print
+</a>] [<a href="https://ieeexplore.ieee.org/abstract/document/11137396" target="_blank">
+  Link to paper on IEEE-Xplore (Open Access)
 </a>]
 
 The survey is structured as follows for clarity and readability:
