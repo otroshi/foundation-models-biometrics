@@ -72,8 +72,8 @@ for i, section in enumerate(sections[1:], start=2):
 
     filepath = f"docs/{filename}.md"
 
-    if filename in TOC_PAGES:
-        body = insert_toc(body)
+    # if filename in TOC_PAGES:
+    #     body = insert_toc(body)
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"""---
