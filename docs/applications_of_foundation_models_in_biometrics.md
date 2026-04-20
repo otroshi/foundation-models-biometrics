@@ -47,21 +47,67 @@ In this section, we review recent papers on the applications of foundation model
 
 ### Foundation Models for Soft-biometric Detection
 
-<details>
-TODO
-</details>
+| Paper Title | Year | Modality / Task | Paper | Code |
+|---|---|---|---|---|
+| Robust light-weight facial affective behavior recognition with clip | 2024 | facial expression classification; action unit detection | [link](https://arxiv.org/abs/2403.09915) | [link](https://github.com/Purdue-M2/Affective_Behavior_Analysis_M2_PURDUE) |
+| Cliper: A unified vision-language framework for in-the-wild facial expression recognition | 2024 | face static & dynamic expression recognition | [link](https://arxiv.org/abs/2303.00193) | [link](https://github.com/muse1998/CLIPER) |
+| Emoclip: A vision-language method for zero-shot video facial expression recognition | 2024 | video facial emotion recognition | [link](https://arxiv.org/abs/2310.16640) | [link](https://github.com/NickyFot/EmoCLIP) |
+| Finecliper: Multi-modal fine-grained clip for dynamic facial expression recognition with adapters | 2024 | dynamic facial expression recognition | [link](https://arxiv.org/abs/2407.02157) | NA |
+| Face-mllm: A large face perception model | 2024 | face age/gender, expression, action units, attributes | [link](https://arxiv.org/abs/2410.20717) | NA |
+| FaceGPT: Self-supervised Learning to Chat about 3D Human Faces | 2024 | face 3DMM parameter generation | [link](https://arxiv.org/abs/2406.07163) | NA |
+| FaceBench: A Multi-View Multi-Level Facial Attribute VQA Dataset for Benchmarking Face Perception MLLMs | 2025 | face attribute detection | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_FaceBench_A_Multi-View_Multi-Level_Facial_Attribute_VQA_Dataset_for_Benchmarking_CVPR_2025_paper.html) | [link](https://github.com/CVI-SZU/FaceBench) |
+| Face-LLaVA: Facial Expression and Attribute Understanding through Instruction Tuning | 2025 | face expression recognition, action unit detection, facial attribute detection, age estimation, and deepfake detection | [link](https://openaccess.thecvf.com/content/WACV2026/html/Chaubey_Face-LLaVA_Facial_Expression_and_Attribute_Understanding_through_Instruction_Tuning_WACV_2026_paper.html) | [link](https://github.com/ihp-lab/Face-LLaVA/) |
+| FaceInsight: A Multimodal Large Language Model for Face Perception | 2025 | face attribute recognition, age/ gender/ race estimation, and expression prediction | [link](https://arxiv.org/abs/2504.15624) | NA |
+| R1-omni: Explainable omni-multimodal emotion recognition with reinforcement learning | 2025 | audio-visual emotion recognition with reasoning | [link](https://arxiv.org/abs/2503.05379) | [link](https://github.com/HumanMLLM/R1-Omni) |
+| ChatGPT and biometrics: an assessment of face recognition, gender detection, and age estimation capabilities | 2024 | face gender detection, age estimation | [link](https://arxiv.org/abs/2403.02965) | NA |
+| How Good is ChatGPT at Face Biometrics? A First Look into Recognition, Soft Biometrics, and Explainability | 2024 | age, gender, ethnicity, hair color | [link](https://arxiv.org/abs/2401.13641) | NA |
+| ChatGPT Meets Iris Biometrics | 2024 | iris–face matching; soft-biometrics | [link](https://arxiv.org/abs/2408.04868) | NA |
+
 
 ### Foundation Models for Deepfake and Forgery Detection
 
-<details>
-TODO
-</details>
+| Paper Title | Year | Modality / Task | Paper | Code |
+|---|---|---|---|---|
+| MFCLIP: Multi-modal Fine-grained CLIP for Generalizable Diffusion Face Forgery Detection | 2024 | face forgery detection | [link](https://arxiv.org/abs/2409.09724) | [link](https://github.com/Jenine-321/MFCLIP) |
+| Forensics Adapter: Adapting CLIP for Generalizable Face Forgery Detection | 2024 | face forgery detection | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Cui_Forensics_Adapter_Adapting_CLIP_for_Generalizable_Face_Forgery_Detection_CVPR_2025_paper.html) | [link](https://github.com/OUC-VAS/ForensicsAdapter) |
+| MADation: Face Morphing Attack Detection with Foundation Models | 2025 | face morph attack detection | [link](https://openaccess.thecvf.com/content/WACV2025W/MAPA/html/Caldeira_MADation_Face_Morphing_Attack_Detection_with_Foundation_Models_WACVW_2025_paper.html) | [link](https://github.com/gurayozgur/MADation) |
+| FSFM: A Generalizable Face Security Foundation Model via Self-Supervised Facial Representation Learning | 2024 | deepfake detection, anti-spoofing, unseen diffusion forgery | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_FSFM_A_Generalizable_Face_Security_Foundation_Model_via_Self-Supervised_Facial_CVPR_2025_paper.html) | [link](https://fsfm-3c.github.io/) |
+| Automatic speaker verification spoofing and deepfake detection using wav2vec 2.0 and data augmentation | 2022 | voice spoofing & deepfake detection | [link](https://arxiv.org/abs/2202.12233) | [link](https://github.com/TakHemlata/SSL_Anti-spoofing) |
+| X2-dfd: A framework for explainable and extendable deepfake detection | 2024 | face deepfake detection | [link](https://arxiv.org/abs/2410.06126) | [link](https://github.com/chenyize111/X2DFD) |
+| Ffaa: Multimodal large language model based explainable open-world face forgery analysis assistant | 2024 | forgery analysis assistant | [link](https://arxiv.org/abs/2408.10072) | [link](https://ffaa-vl.github.io/) |
+| Towards general visual-linguistic face forgery detection (v2) | 2025 | face forgery detection | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Towards_General_Visual-Linguistic_Face_Forgery_Detection_CVPR_2025_paper.html) | [link](https://github.com/skJack/VLFFD) |
+| Evaluating the Effectiveness of Attack-Agnostic Features for Morphing Attack Detection | 2024 | face morph attack detection | [link](https://arxiv.org/abs/2410.16802) | [link](https://gitlab.idiap.ch/bob/bob.paper.ijcb2024_agnostic_features_mad) |
+| Are Music Foundation Models Better at Singing Voice Deepfake Detection? Far-Better Fuse them with Speech Foundation Models | 2024 | speaker deepfake detection | [link](https://arxiv.org/abs/2409.14131) | NA |
+| Rethinking Vision-Language Model in Face Forensics: Multi-Modal Interpretable Forged Face Detector | 2025 | face deepfake detection \newline+ description | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Rethinking_Vision-Language_Model_in_Face_Forensics_Multi-Modal_Interpretable_Forged_Face_CVPR_2025_paper.html) | [link](https://github.com/CHELSEA234/M2F2_Det) |
+| Standing on the shoulders of giants: Reprogramming visual-language model for general deepfake detection | 2025 | face deepfake detection | [link](https://ojs.aaai.org/index.php/AAAI/article/view/32559) | [link](https://github.com/KQL11/RepDFD) |
+| Can chatgpt detect deepfakes? a study of using multimodal large language models for media forensics | 2024 | face deepfake detection | [link](https://openaccess.thecvf.com/content/CVPR2024W/WMF/html/Jia_Can_ChatGPT_Detect_DeepFakes_A_Study_of_Using_Multimodal_Large_CVPRW_2024_paper.html) | [link](https://github.com/shanface33/GPT4MF_UB) |
+| How Good is ChatGPT at Audiovisual Deepfake Detection: A Comparative Study of ChatGPT, AI Models and Human Perception | 2024 | audio-visual deepfake detection | [link](https://arxiv.org/abs/2411.09266) | NA |
+| ChatGPT Encounters Morphing Attack Detection: Zero-Shot MAD with Multi-Modal Large Language Models and General Vision Models | 2025 | face morph detection | [link](https://arxiv.org/abs/2503.10937) | NA |
+
 
 ### Foundation Models for Anti-spoofing
 
-<details>
-TODO
-</details>
+| Paper Title | Year | Modality / Task | Paper | Code |
+|---|---|---|---|---|
+| Flip: Cross-domain face anti-spoofing with language guidance | 2023 | fine‐tune CLIP image encoder for face (FLIP alignment) | [link](https://openaccess.thecvf.com/content/ICCV2023/html/Srivatsan_FLIP_Cross-domain_Face_Anti-spoofing_with_Language_Guidance_ICCV_2023_paper.html) | [link](https://github.com/koushiksrivats/FLIP) |
+| On Self-Supervised Learning and Prompt Tuning of Vision Transformers for Cross-sensor Fingerprint Presentation Attack Detection | 2023 | SSL via masked‐fingerprint prediction with prompt tuning  | [link](https://ieeexplore.ieee.org/abstract/document/10448619) | NA |
+| CPL-CLIP: Compound Prompt Learning for Flexible-Modal Face Anti-Spoofing | 2024 | face anti-spoofing | [link](https://ieeexplore.ieee.org/abstract/document/10744492) | NA |
+| Fm-clip: Flexible modal clip for face anti-spoofing | 2024 | cross‐modal antispoofing  | [link](https://dl.acm.org/doi/abs/10.1145/3664647.3680856) | NA |
+| La-SoftMoE CLIP for Unified Physical-Digital Face Attack Detection | 2024 | Unified physical-digital face attack detection | [link](https://arxiv.org/abs/2408.12793) | NA |
+| Cfpl-fas: Class free prompt learning for generalizable face anti-spoofing | 2024 | face anti-spoofing | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_CFPL-FAS_Class_Free_Prompt_Learning_for_Generalizable_Face_Anti-spoofing_CVPR_2024_paper.html) | NA |
+| InstructFLIP: Exploring Unified Vision-Language Model for Face Anti-spoofing | 2025 | face anti-spoofing | [link](https://dl.acm.org/doi/abs/10.1145/3746027.3754939) | [link](https://kunkunlin1221.github.io/InstructFLIP/) |
+| Reliable and Balanced Transfer Learning for Generalized Multimodal Face Anti-Spoofing | 2025 | Multimodal face anti-spoofing | [link](https://ieeexplore.ieee.org/abstract/document/11015656/) | [link](https://github.com/lxbuaa/mmdg_plus_plus) |
+| FaceShield: Explainable Face Anti-Spoofing with Multimodal Large Language Models | 2025 | face anti-spoofing (classification and attack localization) | [link](https://ojs.aaai.org/index.php/AAAI/article/view/37945) | [link](https://github.com/Why0912/FaceShield) |
+| Interpretable face anti-spoofing: Enhancing generalization with multimodal large language models | 2025 | face anti-spoofing | [link](https://ojs.aaai.org/index.php/AAAI/article/view/33073) | NA |
+| Exploring Task-Solving Paradigm for Generalized Cross-Domain Face Anti-Spoofing via Reinforcement Fine-Tuning | 2025 | face anti-spoofing (spoofing detection and reasoning) | [link](https://arxiv.org/abs/2506.21895) | NA |
+| VL-FAS: Domain Generalization via Vision-Language Model For Face Anti-Spoofing | 2024 | face anti‐spoofing | [link](https://ieeexplore.ieee.org/abstract/document/10448156/) | NA |
+| FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection | 2025 | face anti‐spoofing | [link](https://openaccess.thecvf.com/content/WACV2025W/AI4MFDD/html/Ozgur_FoundPAD_Foundation_Models_Reloaded_for_Face_Presentation_Attack_Detection_WACVW_2025_paper.html) | [link](https://github.com/gurayozgur/FoundPAD) |
+| Towards Iris Presentation Attack Detection with Foundation Models | 2025 | iris anti‐spoofing | [link](https://arxiv.org/abs/2501.06312) | NA |
+| Exploring ChatGPT for Face Presentation Attack Detection in Zero and Few-Shot in-Context Learning | 2025 | face presentation attack detection | [link](https://openaccess.thecvf.com/content/WACV2025W/RWS/html/Komaty_Exploring_ChatGPT_for_Face_Presentation_Attack_Detection_in_Zero_and_WACVW_2025_paper.html) | [link](https://gitlab.idiap.ch/bob/bob.paper.wacv2025_chatgpt_face_pad) |
+| Are Foundation Models All You Need for Zero-shot Face Presentation Attack Detection? | 2025 | face presentation attack detection | [link](https://arxiv.org/abs/2507.16393) | [link](https://github.com/ljsoler/zero-shot-FoundationPAD) |
+| Shield: An evaluation benchmark for face spoofing and forgery detection with multimodal large language models | 2025 | face anti-spoofing (RGB, infrared, depth) and forgery detection | [link](https://link.springer.com/article/10.1007/s44267-025-00079-w) | [link](https://github.com/laiyingxin2/SHIELD) |
+| ChatGPT Meets Iris Biometrics | 2024 | iris presentation‐attack detection | [link](https://arxiv.org/abs/2408.04868) | NA |
+
 
 ### Foundation Models for Synthetic Biometric Generation
 <details>
