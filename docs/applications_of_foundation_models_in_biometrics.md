@@ -110,6 +110,29 @@ In this section, we review recent papers on the applications of foundation model
 
 
 ### Foundation Models for Synthetic Biometric Generation
-<details>
-TODO
-</details>
+
+| Paper Title | Year | Modality / Task | Paper | Code |
+|---|---|---|---|---|
+| Toward open-world text-driven face generation and manipulation via stylegan3 | 2024 | Text-to-face synthesis | [link](https://ieeexplore.ieee.org/document/10620351) | NA |
+| AnyFace++: A unified framework for free-style text-to-face synthesis and manipulation | 2024 | Text-guided face editing  | [link](https://ui.adsabs.harvard.edu/abs/2025ITPAM..47.9438S/abstract) | NA |
+| AnyFace: Free-style text-to-face synthesis and manipulation | 2022 | Text-to-face generation | [link](https://openaccess.thecvf.com/content/CVPR2022/html/Sun_AnyFace_Free-Style_Text-To-Face_Synthesis_and_Manipulation_CVPR_2022_paper.html) | NA |
+| Towards counterfactual image manipulation via clip | 2022 | Controllable text-to-face | [link](https://dl.acm.org/doi/abs/10.1145/3503161.3547935) | [link](https://github.com/yingchen001/CF-CLIP) |
+| Prompt-Based Modality Bridging for Unified Text-to-Face Generation and Manipulation | 2024 | Prompt-based face synthesis  | [link](https://dl.acm.org/doi/full/10.1145/3694974) | NA |
+| Tecm-clip: Text-based controllable multi-attribute face image manipulation | 2022 | face attribute / expression editing | [link](https://openaccess.thecvf.com/content/ACCV2022/html/Lou_TeCM-CLIP_Text-based_Controllable_Multi-attribute_Face_Image_Manipulation_ACCV_2022_paper.html) | [link](https://github.com/lxd941213/TeCM-CLIP) |
+| Stylemc: Multi-channel based fast text-guided image generation and manipulation | 2022 | face multi-attribute editing | [link](https://openaccess.thecvf.com/content/WACV2022/html/Kocasari_StyleMC_Multi-Channel_Based_Fast_Text-Guided_Image_Generation_and_Manipulation_WACV_2022_paper.html) | [link](https://catlab-team.github.io/stylemc/) |
+| Photoverse: Tuning-free image customization with text-to-image diffusion models | 2023 | Few-shot personalised face portrait generation | [link](https://arxiv.org/abs/2309.05793) | [link](https://github.com/idonahum/photoVerse) |
+| Fastcomposer: Tuning-free multi-subject image generation with localized attention | 2024 | fast subject-driven face text-to-image | [link](https://link.springer.com/article/10.1007/s11263-024-02227-z) | [link](https://github.com/mit-han-lab/fastcomposer) |
+| Moa: Mixture-of-attention for subject-context disentanglement in personalized image generation | 2024 | multi-concept face portrait generation | [link](https://dl.acm.org/doi/full/10.1145/3680528.3687662) | NA |
+| Photomaker: Customizing realistic human photos via stacked id embedding | 2024 | high-fidelity face personalisation | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Li_PhotoMaker_Customizing_Realistic_Human_Photos_via_Stacked_ID_Embedding_CVPR_2024_paper.html) | [link](https://photo-maker.github.io/) |
+| Face0: Instantaneously conditioning a text-to-image model on a face | 2023 | Identity-preserving face text-to-image | [link](https://dl.acm.org/doi/abs/10.1145/3610548.3618249) | NA |
+| Ip-adapter: Text compatible image prompt adapter for text-to-image diffusion models | 2023 | face instant personalisation | [link](https://arxiv.org/abs/2308.06721) | [link](https://ip-adapter.github.io/) |
+| Dreamidentity: Improved editability for efficient face-identity preserved image generation | 2023 | face identity-guided generation | [link](http://ojs.aaai.org/index.php/AAAI/article/view/27891) | NA |
+| Portraitbooth: A versatile portrait model for fast identity-preserved personalization | 2024 | face few-shot portrait generation | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Peng_PortraitBooth_A_Versatile_Portrait_Model_for_Fast_Identity-preserved_Personalization_CVPR_2024_paper.html) | NA |
+| Instantid: Zero-shot identity-preserving generation in seconds | 2024 | face real-time personalisation | [link](https://arxiv.org/abs/2401.07519) | [link](https://github.com/instantX-research/InstantID) |
+| ID-Aligner: Enhancing Identity-Preserving Text-to-Image Generation with Reward Feedback Learning | 2024 | face identity-consistent generation | [link](https://arxiv.org/abs/2404.15449) | [link](https://github.com/Weifeng-Chen/ID-Aligner) |
+| Facestudio: Put your face everywhere in seconds | 2023 | face ID & style controllable text-to-image | [link](https://arxiv.org/abs/2312.02663) | [link](icoz69.github.io/facestudio/) |
+| IDAdapter: Learning Mixed Features for Tuning-Free Personalization of Text-to-Image Models | 2024 | identity-aware face editing | [link](https://openaccess.thecvf.com/content/CVPR2024W/FAS2024/html/Cui_IDAdapter_Learning_Mixed_Features_for_Tuning-Free_Personalization_of_Text-to-Image_Models_CVPRW_2024_paper.html) | NA |
+| Arc2face: A foundation model for id-consistent human faces | 2024 | identity-conditioned face generation | [link](https://link.springer.com/chapter/10.1007/978-3-031-72913-3_14) | [link](https://github.com/foivospar/Arc2Face) |
+| Face Reconstruction from Face Embeddings using Adapter to a Face Foundation Model | 2024 | General identity-conditioned face generation | [link](https://openaccess.thecvf.com/content/CVPR2025W/ABAW/html/Shahreza_Face_Reconstruction_from_Face_Embeddings_using_Adapter_to_a_Face_CVPRW_2025_paper.html) | [link](https://www.idiap.ch/paper/face_adapter/) |
+| Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance | 2025 | Identity-conditioned 3D head / avatar generation | [link](https://openaccess.thecvf.com/content/CVPR2025/html/Gerogiannis_Arc2Avatar_Generating_Expressive_3D_Avatars_from_a_Single_Image_via_CVPR_2025_paper.html) | [link](https://arc2avatar.github.io/) |
+| ClipSwap: Towards High Fidelity Face Swapping via Attributes and CLIP-Informed Loss | 2024 | Face swapping | [link](https://ieeexplore.ieee.org/abstract/document/10581924) | NA |
