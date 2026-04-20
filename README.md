@@ -226,10 +226,11 @@ In this section, we review recent advancements in foundation models and mention 
 ## 🔥 Applications of Foundation Models in Biometrics
 In this section, we review recent papers on the applications of foundation models in biometrics:
 
-- [Large Language Models (LLMs)](#large-language-models-llms)
-- [Vision Language Models (VLMs)](#vision-language-models-vlms)
-- [Audio-Language Models (ALMs)](#audio-language-models-ams)
-- [Large Multi-modal Models (LMMs)](#large-multi-modal-models-lmms)
+- [Foundation Models for Biometric Recognition](#foundation-models-for-biometric-recognition)
+- [Foundation Models for Soft-biometric Detection](#foundation-models-for-soft-biometric-detection)
+- [Foundation Models for Deepfake and Forgery Detection](#foundation-models-for-deepfake-and-forgery-detection)
+- [Foundation Models for Anti-spoofing](#foundation-models-for-anti-spoofing)
+- [Foundation Models for Synthetic Biometric Generation](#foundation-models-for-synthetic-biometric-generation)
 
 ### Foundation Models for Biometric Recognition
 
